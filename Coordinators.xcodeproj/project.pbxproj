@@ -15,6 +15,11 @@
 		9607A4792563BD330015F237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9607A4772563BD330015F237 /* LaunchScreen.storyboard */; };
 		9607A4842563BD330015F237 /* CoordinatorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607A4832563BD330015F237 /* CoordinatorsTests.swift */; };
 		9607A48F2563BD330015F237 /* CoordinatorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607A48E2563BD330015F237 /* CoordinatorsUITests.swift */; };
+		9607A4A02563BD7C0015F237 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607A49F2563BD7C0015F237 /* Coordinator.swift */; };
+		9607A4A52563BDE80015F237 /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607A4A42563BDE80015F237 /* Storyboarded.swift */; };
+		9607A4AA2563BF270015F237 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607A4A92563BF270015F237 /* MainCoordinator.swift */; };
+		9607A4B22563C14C0015F237 /* BuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607A4B12563C14C0015F237 /* BuyViewController.swift */; };
+		9607A4B72563C15E0015F237 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9607A4B62563C15E0015F237 /* CreateAccountViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		9607A48A2563BD330015F237 /* CoordinatorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoordinatorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9607A48E2563BD330015F237 /* CoordinatorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorsUITests.swift; sourceTree = "<group>"; };
 		9607A4902563BD330015F237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9607A49F2563BD7C0015F237 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9607A4A42563BDE80015F237 /* Storyboarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		9607A4A92563BF270015F237 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		9607A4B12563C14C0015F237 /* BuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyViewController.swift; sourceTree = "<group>"; };
+		9607A4B62563C15E0015F237 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				9607A4752563BD330015F237 /* Assets.xcassets */,
 				9607A4772563BD330015F237 /* LaunchScreen.storyboard */,
 				9607A47A2563BD330015F237 /* Info.plist */,
+				9607A49F2563BD7C0015F237 /* Coordinator.swift */,
+				9607A4A42563BDE80015F237 /* Storyboarded.swift */,
+				9607A4A92563BF270015F237 /* MainCoordinator.swift */,
+				9607A4B12563C14C0015F237 /* BuyViewController.swift */,
+				9607A4B62563C15E0015F237 /* CreateAccountViewController.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -258,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9607A4A02563BD7C0015F237 /* Coordinator.swift in Sources */,
+				9607A4AA2563BF270015F237 /* MainCoordinator.swift in Sources */,
 				9607A4712563BD2F0015F237 /* ViewController.swift in Sources */,
+				9607A4A52563BDE80015F237 /* Storyboarded.swift in Sources */,
+				9607A4B72563C15E0015F237 /* CreateAccountViewController.swift in Sources */,
 				9607A46D2563BD2F0015F237 /* AppDelegate.swift in Sources */,
+				9607A4B22563C14C0015F237 /* BuyViewController.swift in Sources */,
 				9607A46F2563BD2F0015F237 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
